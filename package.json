@@ -1,0 +1,19 @@
+{
+  "name": "sts50-backup-agent",
+  "version": "1.0.0",
+  "description": "STS50 Cloud Backup Agent for Windows",
+  "main": "dist/agent.js",
+  "scripts": {
+    "build": "tsc",
+    "build:agent": "tsc && node scripts/bundle.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.0",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/ws": "^8.5.0"
+  }
+}
